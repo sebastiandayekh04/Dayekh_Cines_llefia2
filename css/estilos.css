@@ -1,0 +1,228 @@
+#header {
+    background-color: white;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+body {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.container {
+    width: 1300px;
+    margin: auto;
+    padding: 20px 50px 0px 50px;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+}
+.menu-top1 {
+    margin-top: 20px;
+}
+.menu-top1 ul li {
+    padding: 0 10px 0 10px;
+}
+.menu-top1 ul li a{
+    color: grey;
+}
+.menu-top2 {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.fila {
+    display: flex;
+}
+
+.logo_mini {
+    width: 30px;
+}
+.top2 {
+    border-bottom: 3px solid #fff10e;
+}
+.logo {
+    width: 400px;
+}
+.fondo {
+    background-image: url(https://wallpapercave.com/wp/wp3266497.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.separador {
+    height: 250px;
+}
+.content {
+    background-color: #f3f2f2;
+    padding: 10px;
+}
+.menu-principal {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.filtro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.color-azul {
+    color: #0076ec;
+}
+.boton-blanco {
+    background-color: white;
+    text-decoration: none;
+    color: #0076ec;
+    font-weight: bold;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Oswald", sans-serif;
+}
+.boton-azul {
+    background-color: #0076ec;
+    color: white;
+}
+
+.fichas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ficha-img {
+    width: 100%;
+}
+.ficha {
+    width: 250px;
+    height: 500px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    font-family: "Oswald", sans-serif;
+}
+.ficha-botton {
+    margin-top: 10px;
+}
+.ficha-botton .votos {
+    font-size: 0.8em;
+}
+.estrellas {
+    color: #FFD700; 
+    font-size: 20px; 
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-top1 ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+
+.logo img {
+    width: 100%;
+    padding: 0 50px 0 50px;
+}
+
+.ficha-img img {
+    width: 100%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.menu-principal li {
+    
+    width: 120px;
+    margin: 0 5px 0 5px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-principal li a{
+    color: #0076ec;
+}
+
+.boton-inferior {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.boton-inferior i {
+    font-size: 50px;
+    color: #004987;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos ul{
+    padding: 50px;
+    width: 600px;
+}
+
+footer i, .boton-inferior i{
+    font-size: 50px;
+    color: #004987;
+}
+
+.menu-bottom{
+    padding: 50px;
+}
+
+.col{
+    width: 100%;
+}
+
+footer h3 {
+    color: #004987;
+    margin-bottom: 10px;
+}
+
+.col ul li {
+    list-style: none;
+    line-height: 1.7em;
+}
+
+.col ul li a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.ficha h3{
+    margin: 10px 0 10px 0;
+    color: #0076ec;
+}
+
+
+

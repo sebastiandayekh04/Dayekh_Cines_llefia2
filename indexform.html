@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINESllefiA</title>
+    <script src="https://kit.fontawesome.com/9d719ae6a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <style>
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div id="header" >
+            <div class="container">
+                <div class="fila menu menu-top1">
+                    <ul>
+                        <li><a href="#"><img class="logo_mini" src="imagenes/descarga.png" alt=""></a></li>
+                        <li><a href="#">Iniciar sesión</a></li>
+                        <li><a href="#">Crear cuenta</a></li>
+                    </ul>
+                </div>
+                <div class="fila top2">
+                    <div class="logo"><img src="imagenes/cinesa-logo1.jpg" alt="logo"></div>
+                    <div class="menu menu-top2">
+                        <ul>
+                            <li><a href="">Cines</a></li>
+                            <li><a href="">Películas</a></li>
+                            <li><a href="">Eventos</a></li>
+                            <li><a href="">Promos</a></li>
+                            <li><a href="">Cinesa Luxe</a></li>
+                            <li><a href="">Cinesacard</a></li>
+                            <li><a href="">Bussines</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div  class="fondo">
+            <div  class="container separador">enlace</div>	
+            <div class="container content">
+                <div class="fila menu menu-principal">
+        <ul>
+            <li><a href="">ESTRENOS</a></li>
+            <li><a href="">CARTELERA</a></li>
+            <li><a href="">PRÓXIMO</a></li>
+            <li><a href="">IMAX</a></li>
+            <li><a href="">ISENSE</a></li>
+            <li><a href="">DOLBYCINEMA</a></li>
+            <li><a href="">SCREENX</a></li>
+            <li><a href="">WHATSCINE</a></li>
+            <li><a href="">INFANTIL</a></li>
+            <li><a href="">CICLOS</a></li>
+        </ul>
+        </div>
+        <div class="fila filtro">
+                <a href="indexform.html"><i class="fa-solid fa-table-cells"></i></a>
+        
+                <a href="indexlist.html"><i class="fa-solid fa-list"></i></a>
+       
+                <a href="index.html"><i class="fa-solid fa-image"></i></a>
+          
+                <span class="color-azul">Ordenar por </span>
+            <a class="boton boton-blanco" href="#">TOP PELÍCULAS</a>
+            <a class="boton boton-azul" href="#">A-Z</a>
+        </div>
+        
+        <form action="procesadatos.php">
+            <div>
+                <h3>¿Que pelicula quieres que agreguemos?</h3>
+            <label for="Titulo">Titulo:</label>
+            <input placeholder="Titulo" required name="Titulo" type="text" id="Titulo">
+        </div>
+            <div>
+            <label for="Duracion">Duracion (Minutos):</label>
+            <input name="Duracion" type="number" id="Duracion" min="1" max="1440">
+        </div>
+            <div>
+            <label for="Pais">Pais originario:</label>
+            <input placeholder="USA" name="Pais" type="text" id="Pais">
+        </div>
+            <div>
+            <label for="Generos">Generos:</label>
+            <input required name="Generos" type="text" id="Generos">
+        </div>
+        
+        <div>
+            <label for="Estreno">Especifica el año de estreno</label>
+            <input type="number" required name="Estreno" id="" min="1920" max="2024">
+        </div>
+    
+        <div>
+            <label for="Director">Director</label>
+            <input type="text" name="Director" id="Director">
+        </div>
+        <div>
+            <label for="Productor Principal">Productor Principal</label>
+            <input type="text" name="Productor Principal" id="Productor Principal">
+        </div>
+        <div>
+            <label for="Actor Principal">Actor Principal</label>
+            <input type="text" name="Actor Principal" id="Actor Principal">
+        </div>
+        <div>
+            <label for="Puntuacion">Puntuacion</label>
+            <input placeholder="1/10" type="number" step="any" name="Puntuacion" min="1" max="10">
+        </div>
+
+            <div>
+            <label for="correo">Aceptar las condiciones:</label>
+            <input  required name="Sebastian" type="checkbox" id="condiciones">
+        </div>
+            <button>
+                Enviar Datos
+            </button>
+            
+        </form>
+</div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="container iconos">
+                <div class="fila menu ">
+                    <ul>
+                            <li>
+                                <a href="javascript:void(0);"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class="fab fa-instagram-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><i class="fab fa-youtube"></i></a>
+                            </li>
+                    </ul>		
+                </div>
+            </div>
+            <div class="container">
+                <div class="menu-bottom fila flex">
+                    <div class="col">
+                        <h3>CINESA</h4>
+                        <ul>
+                            <li><a href="">Trabaja con nosotros</a></li>
+                            <li><a href="">Cinesa Business</a></li>
+                            <li><a href="">Mapa del site</a></li>
+                            <li><a href="">Blog Cinesa</a></li>
+                            <li><a href="">CINESACHECK online</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Salas Premium</h4>
+                            <ul>
+                                <li><a href="">Trabaja con nosotros</a></li>
+                                <li><a href="">Cinesa Business</a></li>
+                                <li><a href="">Mapa del site</a></li>
+                                <li><a href="">Blog Cinesa</a></li>
+                                <li><a href="">CINESACHECK online</a></li>
+                            </ul>
+                    </div>
+                    <div class="col">
+                        <h3>AYUDA</h4>
+                        <ul>
+                            <li><a href="">Trabaja con nosotros</a></li>
+                            <li><a href="">Cinesa Business</a></li>
+                            <li><a href="">Mapa del site</a></li>
+                            <li><a href="">Blog Cinesa</a></li>
+                            <li><a href="">CINESACHECK online</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Descarga las apps</h4>
+                            <ul>
+                                <li><a href="">Trabaja con nosotros</a></li>
+                                <li><a href="">Cinesa Business</a></li>
+                                <li><a href="">Mapa del site</a></li>
+                                <li><a href="">Blog Cinesa</a></li>
+                                <li><a href="">CINESACHECKonline</a></li>
+                                <li><a href="">Mapa del site</a></li>
+                                <li><a href="">Blog Cinesa</a></li>
+                                <li><a href="">CINESACHECK online</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>	
+        </div>		
+    </footer>
+    <button class="boton-inferior">
+        <i class="fas fa-arrow-circle-up"></i>
+    </button>
+</body>
+</html>
